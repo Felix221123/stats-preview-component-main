@@ -1,0 +1,202 @@
+@import url(https://fonts.google.com/specimen/Lexend+Deca?query=Lexend+Deca);
+@import url(https://fonts.google.com/specimen/Inter?query=Inter);
+@import url(https://fonts.google.com/specimen/Poppins?query=Poppins);
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    color:hsl(0, 0%, 100%);
+    background-color: hsl(233, 47%, 7%);
+    overflow: scroll;
+    
+}
+
+
+::-webkit-scrollbar {
+    width: 0.7rem;
+    height: 0rem;
+    background-image: hsl(233, 47%, 7%);
+    border-radius: 10px;
+   
+}
+
+::-webkit-scrollbar-track{
+    background-color: hsl(233, 47%, 7%);
+    border-radius: 10px;
+
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(60, 57, 57);
+    border-radius: 10px;
+    
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(170, 156, 156);
+    
+}
+
+.main-body-card {
+    background-color: hsl(244, 38%, 16%);
+    width:60em;
+    max-width: 100em;
+    height: 23em;
+    max-height: 50em;
+    border-radius:5px;
+    margin:11em auto;
+    
+}
+
+.main-body-card > div.image {
+    background-color: hsl(233, 60%, 97%);
+}
+
+img {
+    background:hsl(244, 38%, 16%);
+}
+
+.main-body-card > div > img#source-img {
+    float: right;
+    position: relative;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width:30rem;
+    height: 23em;
+    max-height: 50em;
+    background:hsl(244, 38%, 16%) ;
+}
+
+.main-body-card > div.stats-obj{
+    color:hsl(0, 0%, 100%);
+    /* background-color: aliceblue; */
+    width :23em;
+    max-width: 23em;
+    height: 7em;
+    position: relative;
+    top:3rem;
+    left:5rem;
+}
+
+.main-body-card > div.stats-obj > h1 {
+    font-family:"Inter", sans-serif ;
+    text-align:left;
+    position: relative;
+    top:1rem;
+}
+
+.main-body-card > div.stats-obj > h1 >span.highlights {
+    color:rgb(184, 120, 221);
+}
+
+.main-body-card > div > article.para {
+    /* background-color: rgb(173, 81, 81); */
+    width:23em;
+    max-width: 24em;
+    height: 6.5em;
+    max-height: 6.5em;
+    position: relative;
+    top:3rem;
+    left:5rem;
+    font-family:"Inter", sans-serif;
+    font-size:0.75rem;
+    padding: 0em;
+    line-height: 1.7em;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.main-body-card > div > ul.figures {
+    /* background-color: indigo; */
+    position: relative;
+    list-style: none;
+    display: inline-flex;
+    justify-content:space-between;
+    /* text-align: left; */
+    top:4.5em;
+    width: 24em;
+    max-width: 25em;
+    height: 1.5rem;
+    max-height: 3rem;
+    left:5em;
+}
+
+.main-body-card > div > ul.figures > li {
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+    position: relative;
+    left:-2.2em;
+    margin-right:3rem ;
+    font-size: 1.2em;
+    /* font-weight: 600px; */
+    font-family: "Lexend+Deca", sans-serif;
+}
+
+.figures li,
+.indications li {
+        display: inline-block;
+        margin-right: 10px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    
+}
+.main-body-card > div > ul.indications{
+    list-style: none;
+    /* background-color: red; */
+    display: inline-flex;
+    position: relative;
+    top:5.6em;
+    width: 25em;
+    max-width: 26em;
+    height: 1.5rem;
+    max-height: 3rem;
+    left:-14.25em;  
+}
+
+.main-body-card > div > ul.indications > li {
+    color: hsla(0, 0%, 100%, 0.75);
+    text-align: left;
+    position: relative;
+    left:-5em;
+    font-size: 0.5em;
+    padding-top: 1.1em;
+    letter-spacing: 0.15em;
+    margin-right:1.8rem;
+    justify-content:space-between;
+    /* font-weight: 600px; */
+    font-family: "Lexend+Deca", sans-serif;
+}
+
+.main-body-card > footer {
+    background-color: hsl(233, 47%, 7%);
+    color: rgb(233, 241, 236);
+    position: fixed;
+    top: 0rem;
+    right:0rem;
+    text-align: center;
+    width: 100%;
+
+}
+.main-body-card > footer > p  {
+    font-family:"Poppins", cursive ;
+}
+
+a#frontend {
+    text-decoration: none;
+}
+
+a#frontend:hover {
+    text-decoration: underline;
+    color: crimson;
+}
+
+a#author {
+    text-decoration: none;
+}
+
+a#author:hover {
+    text-decoration: underline;
+    color: crimson;
+}
