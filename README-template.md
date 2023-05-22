@@ -40,7 +40,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [https://github.com/Felix221123/project-3---stats-preview-card-component-main/tree/main]
+- Solution URL: [https://github.com/Felix221123/stats-preview-card-component-main/tree/main]
 - Live Site URL: [https://fels-devs-frontend-io-stats-comp.netlify.app/]
 
 ## My process
