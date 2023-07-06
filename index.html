@@ -7,43 +7,51 @@
         <meta name="author" content="Felix Baah">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="stats-styles.css">
-        <link rel="stylesheet" href="https://fonts.google.com/specimen/Inter?query=Inter">
-        <link rel="stylesheet" href="https://fonts.google.com/specimen/Lexend+Deca?query=Lexend+Deca">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
         <title>Stats preview card</title>
     </head>
 
     <body>
-        <div class="main-body-card">
-            <div class="image">
-                <img id="source-img" src="images/image-header-desktop.jpg" alt="business">
-            </div>
-            
-            <div class="stats-obj">
-                <h1>Get <span class="highlights">insights</span> that help your business grow.</h1>
+        <main>
+            <div class="main-body-card">
+                <div class="text-area">
+                    <h1>Get <span class="highlights">insights</span> that help your business grow.</h1>
+                    <article class="para"> Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</article>
+                    <div class="stats-figures-container">
+                        <div>
+                            <p class="figure">10k+</p>
+                            <article>companies</article>
+                        </div>
+
+                        <div>
+                            <p class="figure">314</p>
+                            <article>templates</article>
+                        </div>
+                        <div>
+                            <p class="figure">12M+</p>
+                            <article>queries</article>
+                        </div>
+                    </div>
+                </div>
+
+                <picture>
+                    <source src="./images/image-header-mobile.jpg"
+                    alt="Businesss people sitting down on a chair for smaller screen"
+                    class="workplace-img-mobile"
+                    media="(max-width:376px)">
+                    <img src="./images/image-header-desktop.jpg" 
+                    alt="Businesss people sitting down on a chair on a bigger screen"
+                    class="workplace-img">
+                </picture>
             </div>
 
-
-            <div>
-                <article class="para"> Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency. </article>
-            </div>
-
-            <div class="container">
-                <ul class="figures">
-                    <li><strong>10k+</strong></li>
-                    <li><strong>314</strong></li>
-                    <li><strong>12M+</strong></li>
-                </ul>
-                <ul class="indications">
-                    <li>COMPANIES</li>
-                    <li>TEMPLATES</li>
-                    <li>QUERIES</li>
-                </ul>
-            </div>
             <footer>
                 <p>Challenge from <a id="frontend" href="https://www.frontendmentor.io/challenges">Frontend Mentor</a> by <a id="author" href="https://www.frontendmentor.io/profile/Felix221123">Felix Baah</a> </p>
             </footer>
-
-        </div>
+        </main>
 
     </body>
 </html>

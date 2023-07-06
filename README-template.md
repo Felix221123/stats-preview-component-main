@@ -27,7 +27,7 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 
 ### Screenshot
-[screenshot-stats-comp.jpg]
+[Stats component main.jpg]
 
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
@@ -40,8 +40,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [https://github.com/Felix221123/stats-preview-card-component-main/tree/main]
-- Live Site URL: [https://fels-devs-frontend-io-stats-comp.netlify.app/]
+- Solution URL: []
+- Live Site URL: [https://stats-component-main-preview.netlify.app/]
 
 ## My process
 
@@ -52,19 +52,17 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learned the use of flex reverse to reserve items in a content
+        
 
 To see how you can add code snippets, see below:
-
-I learnt the use of positions in this project very well
+        display: flex;
+        flex-direction: column-reverse;
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
@@ -78,7 +76,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [chrome dev tools](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
