@@ -118,7 +118,7 @@ h1{
 
 
 
-.stats-figures-container article{
+.stats-figures-container p.stats-name{
     text-transform: uppercase;
     font-size: 0.8em;
     font-family: var(--font-style-1);
